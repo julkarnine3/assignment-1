@@ -18,6 +18,35 @@ header{
 .clr-2{
     color: #006A50;
 }
+.clr-3{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.clr-4{
+    background-color: rgba(198, 228, 214, 1);
+}
+.clr-5{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.primary-title{
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 100%;
+    color: #0E0E0E;
+}
+.primary-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 100%;
+    margin-top: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.primary-content-title{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 100%;
+    color: #0E0E0E;
+}
 
 
 /* Styles for nav */
@@ -105,12 +134,7 @@ nav ul button:hover {
     border-radius: 20px;
     
 }
-.pillers-heading{
-    font-size: 40px;
-    font-weight: bold;
-    opacity: 100%;
-    color: #0E0E0E;
-}
+
 .pillars-container{
     display: flex;
     justify-content: space-around;
@@ -128,15 +152,66 @@ nav ul button:hover {
    text-align: justify;
 
 }
-.piller-title{
-    font-size: 20px;
-    font-weight: bold;
-    opacity: 100%;
-    color: #0E0E0E;
+
+/* Vision section style */
+.vision-containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
-.piller-description{
+.vision-description{
     font-size: 16px;
     font-weight: 400;
     opacity: 100%;
     color: rgba(14, 14, 14, 0.7);
+}
+.vision-container{
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 320px;
+    padding: 24px;
+    text-decoration: solid;
+    text-align: justify;
+}
+.qoute-bg-img{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top ;
+    margin-bottom: 67px;
+    
+}
+.designation{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 100%;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-btn{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 100%;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.vision-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    color: #ffffff; /* Text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+.vision-btn-clr1{
+    background-color: rgba(84, 144, 245, 1);
+}
+.vision-btn-clr2{
+    background-color: rgba(9, 161, 92, 1);
+}
+.vision-btn-clr3{
+    background-color: rgba(255, 194, 57, 1);
 }
