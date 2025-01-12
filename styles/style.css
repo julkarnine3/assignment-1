@@ -394,3 +394,10 @@ input[type="email"] {
     padding-left: 100px;
     padding-right: 100px;
 }
+.footer-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 100px;
+}
