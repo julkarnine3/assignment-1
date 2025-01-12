@@ -39,6 +39,7 @@ header{
     font-weight: 400;
     opacity: 100%;
     margin-top: 16px;
+    letter-spacing: 0%;
     color: rgba(14, 14, 14, 0.7);
 }
 .primary-content-title{
@@ -214,4 +215,91 @@ nav ul button:hover {
 }
 .vision-btn-clr3{
     background-color: rgba(255, 194, 57, 1);
+}
+
+/* opinion style section */
+.opinion-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: #0E0E0E;
+}
+.opinion-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-spacing: 0%;
+    box-sizing: border-box;
+    border-width: 1px;
+    padding: 36px 24px 36px 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+.opinion-containers{
+    align-items: center;
+    border-width: 10px 10px 10px 0px;
+    border: rgba(14, 14, 14, 0.15);
+    border-style: solid; 
+}
+.opinion-btn{
+    background-color: rgba(9, 161, 92, 0.15);
+    color: #0E0E0E;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 44px;
+    width: 152px;
+    border-radius: 5px;
+}
+.opinion-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    color: #ffffff; /* Text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+/* News content styles */
+.news-containers{
+    padding-left: 44px;
+}
+.news-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    padding-top: 56px 48px 56px 48px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    
+}
+.news-img{
+    border-radius: 16px;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+} 
+.news-aljazeera-img{
+    width: 134px;
+    height: 40px;
+}
+.news-btn{
+    color: #FFFFFF;
+    opacity: 100%;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 13px 26px 13px 26px ;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 10px;
+}
+.news-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    color: #ffffff; /* Text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
 }
