@@ -322,8 +322,14 @@ nav ul button:hover {
     cursor: pointer; /* Change cursor to pointer */
 }
 /* Offer Style */
-.offer-class{
-    background-color: rgba(255, 255, 255, 1);
+.offer-class-1{
+    
+    width: 1100px;
+    height: 400px;
+    align-items: center;
+    padding: 32px;
+    margin-left: 160px;
+    margin-right: 180px;
 }
 .donate-containers{
     display: flex;
@@ -365,5 +371,26 @@ input[type="text"] {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;    /* Center vertically */
-     margin-top: 24px;         
+     margin-top: 32px; 
+     margin-bottom: 80px;        
+}
+input[type="email"] {
+    text-align: center;
+    width: 700px; /* Set the width of the text box */
+    height: 64px; /* Set the height of the text box */
+    padding: 0px; /* Add some padding for better readability */
+    font-size: 20px; /* Adjust the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+.form-class{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding-top: 24px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
